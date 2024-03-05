@@ -33,10 +33,14 @@
   @keyframes color-shift-top{
 
         0%, 100%{
-            fill:rgb(44, 212, 201);
-            }
+            fill:rgb(210, 27, 49);
+            transform: scale(.5);
+            transform-origin: center;
+          }
             50%{
-                fill:rgb(13, 190, 107);
+                fill:rgb(222, 249, 133);
+                transform: scale(.8);
+                transform-origin: center;
             }
         }
 
