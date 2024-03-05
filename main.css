@@ -25,7 +25,7 @@
     max-width: 400px; 
     }
   /* Animation for top circle */
-  #top-circle{
+  #green_blob{
     animation: color-shift-top 7s infinite;
 }
 
@@ -36,6 +36,8 @@
             fill:rgb(210, 27, 49);
             transform: scale(.5);
             transform-origin: center;
+            opacity: .5;
+            transform: rotate(50deg);
           }
             50%{
                 fill:rgb(222, 249, 133);
@@ -45,7 +47,7 @@
         }
 
   /* Animation for middle circle */
-  #middle-circle{
+  #clovers{
     animation: color-shift-middle 7s infinite;
 }
 
@@ -60,17 +62,18 @@
         }
     
   /* Animation for bottom circle */
-  #bottom-circle{
+  #flower{
     animation: color-shift-bottom 7s infinite;
 }
 
   @keyframes color-shift-bottom{
 
         0%, 100%{
-            fill:red
+            fill:rgb(191, 255, 0)
             }
             50%{
                 fill:rgb(234, 242, 6);
+                opacity: .5;
             }
         }
 
